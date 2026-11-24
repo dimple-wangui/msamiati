@@ -77,3 +77,22 @@ nav.tabs button.on { color: var(--brand); font-weight: 600; }
 .word input { margin-top: 5px; width: 18px; height: 18px; accent-color: var(--brand); }
 .done { text-align: center; padding: 40px 20px; }
 h2 { font-size: 18px; margin: 0 0 10px; }
+.hero { border-color: var(--brand); }
+h3.level { font-size: 14px; text-transform: none; color: var(--muted); font-weight: 600; margin: 22px 2px 8px; }
+.unit { display: block; width: 100%; text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 10px; cursor: pointer; }
+.unit:hover { border-color: var(--brand); }
+.lesson { margin: 10px 0; line-height: 1.6; }
+.options { display: grid; gap: 8px; margin-top: 14px; }
+.opt { text-align: left; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); cursor: pointer; }
+.opt:disabled { cursor: default; }
+.opt-right { border-color: var(--good); background: var(--brand-soft); font-weight: 600; }
+.opt-wrong { border-color: var(--again); color: var(--again); }
+.opt-dim { opacity: 0.55; }
+.feedback { margin-top: 14px; padding: 12px; border-radius: 10px; }
+.feedback.ok { background: var(--brand-soft); color: var(--text); }
+.feedback.bad { border: 1px solid var(--again); }
+.answer-line { min-height: 54px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px; margin: 14px 0; border-bottom: 2px solid var(--line); }
+.tiles { display: flex; flex-wrap: wrap; gap: 8px; }
+.tile { padding: 9px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); cursor: pointer; font-size: 16px; }
+.tile.on { border-color: var(--brand); background: var(--brand-soft); }
+.tile:disabled:not(.on) { opacity: 0.3; cursor: default; }
